@@ -1,0 +1,6 @@
+{
+    "user" : "short_user",
+    "password" : "short_password",
+    "host" : "localhost",
+    "database" : "short_url"
+}

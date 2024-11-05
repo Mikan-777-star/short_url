@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>短縮URL登録フォーム</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>短縮URL登録フォーム</h1>
+        <form id="registerForm">
+            <div class="form-group">
+                <label for="url">元のURL:</label>
+                <input type="url" id="url" name="url" required placeholder="https://example.com">
+            </div>
+            <div class="form-group">
+                <label for="password">短縮URL:</label>
+                <input type="text" id="password" name="password" required placeholder="削除用パスワード">
+            </div>
+            <button type="submit">登録</button>
+        </form>
+    </div>
+    <div id="result"></div>
+    <script src="./script/index.js"></script>
+</body>
+</html>
